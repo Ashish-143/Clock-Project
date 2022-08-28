@@ -1,0 +1,109 @@
+body{
+    background-color: #D4F6CC;
+}
+div{
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    font-size: 75px;
+    margin-top: 0%;
+    text-align: center;
+    color: #00D7FF;
+}
+.dot{
+    position: relative;
+    border: 7px;
+  height: 500px;
+  width: 500px;
+  border-style: inset;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #F7ECDE ;
+}
+.do{
+    font-size: 50px;
+    margin: 210px 0 0 245px;
+}
+h1,h3{
+    position: absolute;
+}
+h3{
+    font-size: 50px;
+}
+.twe{
+    margin: 3px 0 0 235px;
+}
+.thr{
+    margin: 225px 0 0 480px;
+}
+.six{
+    margin:225px 0 0 3px;
+}
+.nin{
+    margin: 463px 0 0 240px;
+}
+.one{
+    margin: 20px 0 0 372px;
+    transform: rotate(120deg);
+}
+.two{
+    margin: 103px 0 0 452px ;
+    transform: rotate(140deg);
+}
+.for{
+    margin: 337px 0 0 452px ;
+    transform: rotate(40deg);
+}
+.fiv{
+    margin: 422px 0 0 372px;
+    transform: rotate(60deg);
+}
+.ele{
+    margin: 20px 0 0 113px;
+    transform: rotate(60deg);
+}
+.ten{
+    margin:103px 0 0 35px;
+    transform: rotate(40deg);
+}
+.sev{
+    margin: 337px 0 0 35px;
+    transform: rotate(140deg);
+}
+.eig{
+    margin: 422px 0 0 113px;
+    transform: rotate(120deg);
+}
+
+.abc{
+    position: absolute;
+}
+#hour{
+    width: 5px;
+    height: 130px;
+    left: 248.5px;
+    top: 22px;
+    border-radius: 30%;
+    transform-origin: bottom;
+    background: orange;
+    
+}
+#minutes{
+    width: 4px;
+    height: 160px;
+    margin-left: 249.5px;
+    margin-top: 92px;
+    border-radius: 40%;
+    transform-origin: bottom;
+    background: blue;
+}
+#seconds{
+    width:2px;
+    height: 190px;
+    margin-left:250px;
+    margin-top: 62px;
+    border-radius: 15%;
+    transform-origin: bottom;
+    background: greenyellow;
+}
